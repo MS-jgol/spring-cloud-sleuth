@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: "insights"
+  jmx:
+    enabled: true
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
